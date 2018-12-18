@@ -12,6 +12,8 @@
         <module>springcloud-peng-api-service</module>
         <module>springcloud-peng-api-member-serviceImpl</module>
         <module>springcloud-peng-api-order-serviceImpl</module>
+        <module>springcloud-peng-api-config</module>
+        <module>springcloud-peng-api-config-client</module>
     </modules>
 
     <parent>

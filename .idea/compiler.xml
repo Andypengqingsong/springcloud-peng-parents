@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-peng-api-config" />
+        <module name="springcloud-peng-api-config-client" />
         <module name="springcloud-peng-api-member-service" />
         <module name="springcloud-peng-api-member-serviceImpl" />
         <module name="springcloud-peng-api-order-service" />
@@ -14,12 +16,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springcloud-peng-api-config" target="1.8" />
+      <module name="springcloud-peng-api-config-client" target="1.8" />
       <module name="springcloud-peng-api-member-service" target="1.8" />
       <module name="springcloud-peng-api-member-serviceImpl" target="1.8" />
       <module name="springcloud-peng-api-order-service" target="1.8" />
       <module name="springcloud-peng-api-order-serviceImpl" target="1.8" />
       <module name="springcloud-peng-api-service" target="1.8" />
       <module name="springcloud-peng-parents" target="1.8" />
+      <module name="springcloudpengconfig" target="1.8" />
       <module name="ssssssss" target="1.8" />
     </bytecodeTargetLevel>
   </component>

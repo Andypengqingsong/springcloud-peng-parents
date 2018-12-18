@@ -2,11 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud-peng-api-member-serviceImpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-peng-api-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-peng-api-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-peng-api-member-serviceImpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-peng-api-order-serviceImpl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-peng-api-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-peng-api-service/springcloud-peng-api-member-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-peng-api-service/springcloud-peng-api-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudpengconfig" charset="UTF-8" />
   </component>
 </project>

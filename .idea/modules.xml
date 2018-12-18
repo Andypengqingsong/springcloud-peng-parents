@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-peng-api-config/springcloud-peng-api-config.iml" filepath="$PROJECT_DIR$/springcloud-peng-api-config/springcloud-peng-api-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-peng-api-config-client/springcloud-peng-api-config-client.iml" filepath="$PROJECT_DIR$/springcloud-peng-api-config-client/springcloud-peng-api-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-peng-api-service/springcloud-peng-api-member-service/springcloud-peng-api-member-service.iml" filepath="$PROJECT_DIR$/springcloud-peng-api-service/springcloud-peng-api-member-service/springcloud-peng-api-member-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-peng-api-member-serviceImpl/springcloud-peng-api-member-serviceImpl.iml" filepath="$PROJECT_DIR$/springcloud-peng-api-member-serviceImpl/springcloud-peng-api-member-serviceImpl.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-peng-api-service/springcloud-peng-api-order-service/springcloud-peng-api-order-service.iml" filepath="$PROJECT_DIR$/springcloud-peng-api-service/springcloud-peng-api-order-service/springcloud-peng-api-order-service.iml" />
