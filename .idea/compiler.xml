@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-peng-api-member-service" />
+        <module name="springcloud-peng-api-member-serviceImpl" />
+        <module name="springcloud-peng-api-order-service" />
+        <module name="springcloud-peng-api-order-serviceImpl" />
+        <module name="ssssssss" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-peng-api-member-service" target="1.8" />
+      <module name="springcloud-peng-api-member-serviceImpl" target="1.8" />
+      <module name="springcloud-peng-api-order-service" target="1.8" />
+      <module name="springcloud-peng-api-order-serviceImpl" target="1.8" />
+      <module name="springcloud-peng-api-service" target="1.8" />
+      <module name="springcloud-peng-parents" target="1.8" />
+      <module name="ssssssss" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

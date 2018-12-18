@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springcloud-peng-api-member-serviceImpl:war">
+    <output-path>$PROJECT_DIR$/springcloud-peng-api-member-serviceImpl/target</output-path>
+    <root id="archive" name="springcloud-peng-api-member-serviceImpl-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springcloud-peng-api-member-serviceImpl:war exploded" />
+    </root>
+  </artifact>
+</component>
