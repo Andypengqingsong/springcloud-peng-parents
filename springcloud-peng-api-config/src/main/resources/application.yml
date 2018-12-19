@@ -1,19 +1,16 @@
 server:
- port: 8101
+  port: 8011
 spring:
- cloud:
-  config:
-  label: master
-   server: config-server
-   # 配置git仓库地址
-    git:
-     uri: https://github.com/Andypengqingsong/spring-cloud-config-repo.git
-     username: ****your git name****
-     password: ****your git pw****
-     search-paths: spring-cloud-config-repo
-
-     #  设置注册中心地址
- eureka:
-   client:
-     service-url:
-       defaultZone: http://localhost:8000/eureka
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Andypengqingsong/spring-cloud-config-repo.git
+          search-paths: spring-cloud-config-repo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+       #  设置服务名

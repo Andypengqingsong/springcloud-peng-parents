@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-client #服务名称
+  cloud:
+    config:
+      profile: pro  #版本
+      discovery:
+        #config-service注册别名或者写配置中心地址写死
+        service-id: config-server
+        enabled: true #开启配置
+#  设置注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
+#配置服务器访问地址
+server:
+  port: 8300
