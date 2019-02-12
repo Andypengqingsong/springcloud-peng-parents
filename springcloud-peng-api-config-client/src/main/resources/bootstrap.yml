@@ -16,3 +16,9 @@ eureka:
 #配置服务器访问地址
 server:
   port: 8300
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#暴露所有端点 默认是info,health

@@ -1,6 +1,7 @@
 package com.peng.api;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @description 描述当前类的用途
  */
 @RestController
+@RefreshScope
 public class SpringCloudClientTest {
 
 
