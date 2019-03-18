@@ -1,0 +1,25 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+server:
+  port: 80
+spring:
+  application:
+    name: service-zuul
+  cloud:
+    config:
+      profile: dev  #版本
+      discovery:
+        #config-service注册别名或者写配置中心地址写死
+        service-id: config-server
+        enabled: true #开启配置
+#zuul:
+#  routes:
+#    api-a:
+#      path: /order-service/**
+#      serviceId: order-service
+#    api-b:
+#    #也是一个相对路径，访问的时候需要加上这个路径/member-service/
+#      path: /member-service/**
+#      serviceId: member-service
